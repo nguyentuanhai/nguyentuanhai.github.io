@@ -127,13 +127,15 @@
     <p>Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a <code class="highlighter-rouge">0</code>-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az <code class="highlighter-rouge">x</code>-en (<code class="highlighter-rouge">x &gt; 0</code> egész). Gombóc Artúr és az Órarugógerincű Felpattanóé minden másodpercben ugranak egyet a számegyenesen, előbbi <code class="highlighter-rouge">a</code> méretűt, utóbbi <code class="highlighter-rouge">b</code> méretű (<code class="highlighter-rouge">a, b &gt; 0</code> egészek). Határozzuk meg, hogy adott <code class="highlighter-rouge">x</code>, <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy <code class="highlighter-rouge">-1</code>-et, ha igen, írjuk ki, hogy hány másodperc múlva.</p>
 
     <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
- Input: 4 2 1 // az Órarugógerincű felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t.
+ Input: 4 2 1
  Output: 4
 
  Input: 4 1 2
  Output: -1
 </code></pre>
     </div>
+
+    <p>Az első esetben az Órarugógerincű felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t, így 4 lépés múlva éri őt utol.</p>
   </li>
   <li>
     <p><strong>(1 pont)</strong> <code class="highlighter-rouge">szorgalmi2_csoki.c</code></p>
@@ -143,13 +145,13 @@
     <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
  Input: 5 13 7 28 2 0
  Output: "El lehet osztani a csokikat igazságosan."
- // Összesen 50 kocka van, azt el lehet oszani az 5 vendég közt.
 
  Input: 2 2 3 4 5 1 0
  Output: "Nem lehet elosztani a csokikat igazságosan."
- // 15 csokikockát nem lehet elosztani 2 vendég közt.
 </code></pre>
     </div>
+
+    <p>Az első esetben összesen 50 kocka van, azt el lehet oszani az 5 vendég közt. A második esetben 15 csokikockát nem lehet elosztani 2 vendég közt.</p>
   </li>
   <li>
     <p><strong>(1 pont)</strong> <code class="highlighter-rouge">szorgalmi2.c</code></p>
@@ -159,10 +161,10 @@
     <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
  Input: 3
  Output: "Pom Pom"
- // Először Picur összeköt két pontot, majd Pom Pom összeköti az összekötetlen pontot az egyik összekötöttel. 
- Így marad két pont, amik nincsenek összekötve egymással, amiket ha Picur összeköt, elveszíti a játékot.
 </code></pre>
     </div>
+
+    <p>Először Picur összeköt két pontot, majd Pom Pom összeköti az összekötetlen pontot az egyik összekötöttel. Így marad két pont, amik nincsenek összekötve egymással, amiket ha Picur összeköt, elveszíti a játékot.</p>
   </li>
   <li>
     <p><strong>(2 pont)</strong> <code class="highlighter-rouge">szorgalmi2_sorozat.c</code></p>

@@ -12,12 +12,14 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
 
     ```
     Pl.:
-    Input: 4 2 1 // az Órarugógerincű felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t.
+    Input: 4 2 1
     Output: 4
 
     Input: 4 1 2
     Output: -1
     ```
+
+    Az első esetben az Órarugógerincű felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t, így 4 lépés múlva éri őt utol.
 
 2. **(1 pont)** `szorgalmi2_csoki.c`
 
@@ -27,12 +29,12 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
     Pl.:
     Input: 5 13 7 28 2 0
     Output: "El lehet osztani a csokikat igazságosan."
-    // Összesen 50 kocka van, azt el lehet oszani az 5 vendég közt.
 
     Input: 2 2 3 4 5 1 0
     Output: "Nem lehet elosztani a csokikat igazságosan."
-    // 15 csokikockát nem lehet elosztani 2 vendég közt.
     ```
+
+    Az első esetben összesen 50 kocka van, azt el lehet oszani az 5 vendég közt. A második esetben 15 csokikockát nem lehet elosztani 2 vendég közt.
 
 3. **(1 pont)** `szorgalmi2.c`
 
@@ -42,9 +44,9 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
     Pl.:
     Input: 3
     Output: "Pom Pom"
-    // Először Picur összeköt két pontot, majd Pom Pom összeköti az összekötetlen pontot az egyik összekötöttel. 
-    Így marad két pont, amik nincsenek összekötve egymással, amiket ha Picur összeköt, elveszíti a játékot.
     ```
+    
+    Először Picur összeköt két pontot, majd Pom Pom összeköti az összekötetlen pontot az egyik összekötöttel. Így marad két pont, amik nincsenek összekötve egymással, amiket ha Picur összeköt, elveszíti a játékot.
 
 4. **(2 pont)** `szorgalmi2_sorozat.c`
 
