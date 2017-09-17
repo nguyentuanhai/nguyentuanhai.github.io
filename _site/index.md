@@ -1,2 +1,0 @@
-# Index title
-index content
