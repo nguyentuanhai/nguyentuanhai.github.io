@@ -8,7 +8,7 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
 
 1. **(1 pont)** `szorgalmi2_rugo.c`
 
-    Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a `0`-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az `x`-en (`x > 0` egész). Gombóc Artúr és az Órarugógerincű Felpattanóé minden másodpercben ugranak egyet a számegyenesen, előbbi `a` méretűt, utóbbi `b` méretű (`a, b > 0` egészek). Határozzuk meg, hogy adott `x`, `a`, `b` számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy `-1`-et, ha igen, írjuk ki, hogy hány másodperc múlva.
+    Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a `0`-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az `x`-en (`x > 0` egész). Gombóc Artúr és az Órarugógerincű Felpattanó minden másodpercben ugranak egyet a számegyenesen, előbbi `a` méretűt, utóbbi `b` méretű (`a, b > 0` egészek). Határozzuk meg, hogy adott `x`, `a`, `b` számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy `-1`-et, ha igen, írjuk ki, hogy hány másodperc múlva.
 
     ```
     Pl.:
@@ -19,7 +19,7 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
     Output: -1
     ```
 
-    Az első esetben az Órarugógerincű felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t, így 4 lépés múlva éri őt utol.
+    Az első esetben az Órarugógerincű Felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t, így 4 lépés múlva éri őt utol.
 
 2. **(1 pont)** `szorgalmi2_csoki.c`
 
@@ -36,9 +36,9 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
 
     Az első esetben összesen 50 kocka van, azt el lehet oszani az 5 vendég közt. A második esetben 15 csokikockát nem lehet elosztani 2 vendég közt.
 
-3. **(1 pont)** `szorgalmi2.c`
+3. **(1 pont)** `szorgalmi2_jatek.c`
 
-    Picur és Pom Pom a következő játékot játsszák: lerajzolnak `n` pontot egy papírlapra és felváltva összekötnek két pontot. A játékot az veszíti el, aki kört hoz létre. Ki fog nyerni, ha mindketten a lehető legjobban játszanak és Picur kezdia játékot?
+    Picur és Pom Pom a következő játékot játsszák: lerajzolnak `n` pontot egy papírlapra és felváltva összekötnek két-két pontot. A játékot az veszíti el, aki kört hoz létre. Ki fog nyerni, ha mindketten a lehető legjobban játszanak és Picur kezdi a játékot?
 
     ```
     Pl.:
@@ -59,4 +59,7 @@ A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A
 
     Input: 9 6
     Output: 012345
+
+    Input: 1 10
+    Output: 0000000000
     ```
