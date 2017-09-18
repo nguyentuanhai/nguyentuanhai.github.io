@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>nguyentuanhai.github.io</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <id>http://localhost:4000</id>
- <updated>2017-09-18T10:38:24+02:00</updated>
+ <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
+ <id>https://nguyentuanhai.github.io</id>
+ <updated>2017-09-18T12:34:44+02:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>Programozás Labor - Szorgalmi 2.</title>
-   <link href="http://localhost:4000/proglab-szorgalmi-2"/>
-   <id>http://localhost:4000/proglab-szorgalmi-2</id>
+   <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-2"/>
+   <id>https://nguyentuanhai.github.io/proglab-szorgalmi-2</id>
    <updated>2017-09-17T00:00:00+02:00</updated>
    <content type="html">&lt;p&gt;A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;(1 pont)&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi2_rugo.c&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza...</content>
  </entry>
