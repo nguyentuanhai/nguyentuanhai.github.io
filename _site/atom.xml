@@ -4,7 +4,7 @@
  <title>nguyentuanhai.github.io</title>
  <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
  <id>https://nguyentuanhai.github.io</id>
- <updated>2017-09-19T10:32:33+02:00</updated>
+ <updated>2017-09-26T09:09:12+02:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
@@ -14,11 +14,21 @@
  
 
  <entry>
+   <title>Programozás Labor - Szorgalmi 3.</title>
+   <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-3"/>
+   <id>https://nguyentuanhai.github.io/proglab-szorgalmi-3</id>
+   <updated>2017-09-26T00:00:00+02:00</updated>
+   <content type="html">&lt;p&gt;A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;(1 pont)&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi3_log2.c&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Jerry Smith elvesztette a bizonyítványát, ezért újra kell, hogy érettségizzen, hogy munkát találhasson. Viszont...</content>
+ </entry>
+
+ 
+
+ <entry>
    <title>Programozás Labor - Szorgalmi 2.</title>
    <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-2"/>
    <id>https://nguyentuanhai.github.io/proglab-szorgalmi-2</id>
    <updated>2017-09-17T00:00:00+02:00</updated>
-   <content type="html">&lt;p&gt;A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;(1 pont)&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi2_rugo.c&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza...</content>
+   <content type="html">&lt;p&gt;A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;(1 pont)&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi2_rugo.c&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza...</content>
  </entry>
 
  

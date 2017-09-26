@@ -4,11 +4,11 @@ description: A programozás alapjai 1. második laborjának szorgalmi feladatai
 header: Programozás Labor - Szorgalmi 2.
 categories: prog1lab, oktat
 ---
-A szorgalmi feladat elfgadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a [moodle](https://moodle.hit.bme.hu/) rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.
+A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a [moodle](https://moodle.hit.bme.hu/) rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.
 
 1. **(1 pont)** `szorgalmi2_rugo.c`
 
-    Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a `0`-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az `x`-en (`x > 0` egész). Gombóc Artúr és az Órarugógerincű Felpattanó minden másodpercben ugranak egyet a számegyenesen, előbbi `a` méretűt, utóbbi `b` méretű (`a, b > 0` egészek). Határozzuk meg, hogy adott `x`, `a`, `b` számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy `-1`-et, ha igen, írjuk ki, hogy hány másodperc múlva.
+    Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a `0`-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az `x`-en (`x > 0` egész). Gombóc Artúr és az Órarugógerincű Felpattanó minden másodpercben ugranak egyet a számegyenesen, előbbi `a` méretűt, utóbbi `b` méretűt (`a, b > 0` egészek). Határozzuk meg, hogy adott `x`, `a`, `b` számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy `-1`-et, ha igen, írjuk ki, hogy hány másodperc múlva.
 
     ```
     Pl.:
