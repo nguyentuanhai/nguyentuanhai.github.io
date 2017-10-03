@@ -79,4 +79,5 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
     Írjunk programot, mely meghatározza az első 1000 számról, hogy prím-e vagy sem. Hozzunk létre egy 1000 elemű tömböt, ami csak 1-eseket tartalmaz, majd írjuk át a tömb elemeit 0-ra, ha azok nem prímek!
 
     *Segítség: azokat a tömbelemeket kell átírni 0-ra, melyeknek az indexe osztható valamely másik (nem 1) tömbindexszel.*
+    
     *Segítség2: keressük Arkhimédész jóbarátját.*
