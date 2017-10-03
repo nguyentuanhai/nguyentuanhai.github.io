@@ -55,7 +55,7 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
     3 tipusubol 20 meterrel tobb van.
     ```
 
-3. **(2 pont)**
+3. **(2 pont)** `szorgalmi4_szonyegakcio.c`
 
     Kiárusítás alkalmával egy különleges akció keretén belül különféle kedvezményeket kaphatnak a vevők. Ha valaki egy bizonyos fajtájú szőnyegből legalább 3-at vásárol, akkor a legolcsóbbat megkapja ingyen. Számoljuk ki, hogy így mennyit kell fizetnie egy vásárlónak összesen a szőnyegekért.
 
