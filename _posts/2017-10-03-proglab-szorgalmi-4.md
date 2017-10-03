@@ -71,3 +71,11 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
     2 24
     Output: 71
     ```
+
+4. **(2 pont)** `szorgalmi4_primek.c`
+
+    Egy munkatársad arra kér, hogy emeld le neki a perzsaszőnyeget a polcról. Felállsz a sámlira, és már nyújtanád a karjaid a szőnyegért, mikor megcsúszol a sámlin, és az kibillen alólad. Hanyattvágódsz és összetöröd magad. A világ ismét elsötétül és elkezd filmszalagként leperegni előtted a csodálatos életed. De az emlékfoszlányok mellett számok is megjelennek az elmédben. Méghozzá az első 1000 szám, ráadásul úgy, hogy a prímek piros színnel, a nem prímek kék színnel.
+
+    Írjunk programot, mely meghatározza az első 1000 számról, hogy prím-e vagy sem. Hozzunk létre egy 1000 elemű tömböt, ami csak 1-eseket tartalmaz, majd írjuk át a tömb elemeit 0-ra, ha azok nem prímek!
+
+    *Segítség: azokat a tömbelemeket kell átírni 0-ra, melyeknek az indexe osztható valamely másik (nem 1) tömbindexszel.*
