@@ -1,6 +1,6 @@
 ---
 title: Programozás Labor - Szorgalmi 3.
-description: A programozás alapjai 1. második laborjának szorgalmi feladatai
+description: A programozás alapjai 1. harmadik laborjának szorgalmi feladatai
 header: Programozás Labor - Szorgalmi 3.
 categories: prog1lab, oktat
 ---
