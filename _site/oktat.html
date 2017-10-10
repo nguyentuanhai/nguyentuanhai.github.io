@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>nguyentuanhai.github.io</title>
+	<title>Oktat</title>
   <meta name="description" content="A minimal, responsive, ready to use blog template, built with Jekyll.">
 
 	<!-- MathJax -->
@@ -152,45 +152,42 @@
 		  
 		<main>
 
-			<!-- Posts -->
-<ul id="posts">
-
+			<article id="page">
 	
+  <h1 id="a-programozás-alapjai-1">A programozás alapjai 1.</h1>
 
-	  <li class="post">
-	  	<h2><a href="/proglab-szorgalmi-5">Programozás Labor - Szorgalmi 5.</a></h2>
-      <time datetime="2017-10-10T00:00:00+02:00" class="by-line"> <i>10 Oct 2017</i> </time>
-	  	<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a moodle rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be. (1 pont) szorgalmi5_kommutativ.c A Nexus 3 android gyártósoron a hibás egyedeket kivizsgálásra küldik ki. Az egyik ilyen selejtes példány vizsgálata közben...</p>
-	  </li>
+<h2 id="gyakori-hibák">Gyakori hibák</h2>
 
-    
+<ul>
+  <li>
+    <p><strong>Változó méretű tömb</strong></p>
 
-	  <li class="post">
-	  	<h2><a href="/proglab-szorgalmi-4">Programozás Labor - Szorgalmi 4.</a></h2>
-      <time datetime="2017-10-03T00:00:00+02:00" class="by-line"> <i>03 Oct 2017</i> </time>
-	  	<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a moodle rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be. szorgalmi4_szonyegdarab.c Egy játékterem közepén ülsz, mikor hirtelen egy laborköpenyes öregember egy hatalmas sisakot erőszakol a fejedre. A világ hirtelen elsötétül körülötted...</p>
-	  </li>
+    <p>Az első kisZH-ban gyakori <em>“hiba”</em> volt, hogy beolvasunk egy <code class="highlighter-rouge">n</code> értéket, ezután megpróbálunk deklarálni egy <code class="highlighter-rouge">n</code> méretű tömböt.</p>
 
-    
+    <div class="highlighter-rouge"><pre class="highlight"><code>  int foo() {
+      int size;
+      scanf("%d", &amp;size);
+      int array[size];
+  }
+</code></pre>
+    </div>
 
-	  <li class="post">
-	  	<h2><a href="/proglab-szorgalmi-3">Programozás Labor - Szorgalmi 3.</a></h2>
-      <time datetime="2017-09-26T00:00:00+02:00" class="by-line"> <i>26 Sep 2017</i> </time>
-	  	<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a moodle rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be. (1 pont) szorgalmi3_log2.c Jerry Smith elvesztette a bizonyítványát, ezért újra kell, hogy érettségizzen, hogy munkát találhasson. Viszont a matek érettségi túl...</p>
-	  </li>
+    <p>Ezt az újabb szabványok megengedik, és a kód le is fordul egyes fordítók esetén (<code class="highlighter-rouge">gcc</code> vagy <code class="highlighter-rouge">clang</code>), azonban ez a funkció nincs mindenhol beépítve így az általunk (azaz a Visual Studio által) használt <code class="highlighter-rouge">MSVC</code>-ben sem. Ha a tömb méretét futás közben (futási időben) szeretnénk megadni, akkor használjunk <code class="highlighter-rouge">malloc</code>-ot (amit később tanulunk).</p>
 
-    
-
-	  <li class="post">
-	  	<h2><a href="/proglab-szorgalmi-2">Programozás Labor - Szorgalmi 2.</a></h2>
-      <time datetime="2017-09-17T00:00:00+02:00" class="by-line"> <i>17 Sep 2017</i> </time>
-	  	<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a moodle rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be. (1 pont) szorgalmi2_rugo.c Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú...</p>
-	  </li>
-
-    
-
+    <div class="highlighter-rouge"><pre class="highlight"><code>  int foo() {
+      int size;
+      scanf("%d", &amp;size);
+      int * array = (int *) malloc(size * sizeof(int));
+      // ...
+      free(array);
+  }
+</code></pre>
+    </div>
+  </li>
 </ul>
 
+
+</article>
 
 	  </main>
 		

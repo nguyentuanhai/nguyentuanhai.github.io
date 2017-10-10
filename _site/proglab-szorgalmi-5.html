@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Programozás Labor - Szorgalmi 5.</title>
+  <meta name="description" content="A programozás alapjai 1. ötödik laborjának szorgalmi feladatai">
+
+	<!-- MathJax -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>	
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57626835-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="//">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	  
+	    
+	      <a href="/books" title="Books">Books</a>
+	    
+	  
+	    
+	      <a href="/content" title="Contents">Contents</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      <a href="/oktat" title="Oktat">Oktat</a>
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  <a href="https://gist.github.com/nguyentuanhai">Gist</a>
+
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>version 1.0.0</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header" class="parent justify-spaceBetween">
+  <div class="inner w100 relative">
+    <span class="f-left">  
+      <a href="//">
+        <h1>
+          <span>nguyentuanhai</span>.github.io
+        </h1>
+      </a>
+    </span>
+    <span id="nav-links" class="absolute right bottom">
+      <!-- Nav pages -->
+	    
+	      
+	    
+	      
+	    
+	      
+	        <a href="/books" title="Books">Books</a>
+	      
+	    
+	      
+	        <a href="/content" title="Contents">Contents</a>
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	        <a href="/oktat" title="Oktat">Oktat</a>
+	      
+	    
+	      
+	    
+	      
+	    
+      
+      <!-- Nav links -->
+	    <a href="https://gist.github.com/nguyentuanhai">Gist</a>
+
+
+    </span>
+  </div>
+</header>
+
+
+
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="post-page">
+	<h2>Programozás Labor - Szorgalmi 5.</h2>		
+	<time datetime="2017-10-10T00:00:00+02:00" class="by-line">10 Oct 2017</time>
+	<div class="content">
+
+		<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a <a href="https://moodle.hit.bme.hu/">moodle</a> rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.</p>
+
+<ol>
+  <li>
+    <p><strong>(1 pont)</strong> <code class="highlighter-rouge">szorgalmi5_kommutativ.c</code></p>
+
+    <p>A Nexus 3 android gyártósoron a hibás egyedeket kivizsgálásra küldik ki. Az egyik ilyen selejtes példány vizsgálata közben jössz rá, hogy a gondok fő oka az elromlott logikai egységekben van. A hiba miatt ugyanis a replikánsok folyton felcserélik a műveletek sorrendjeit.</p>
+
+    <p>Bizonyítsuk be, hogy a függvényhívás nem kommutatív művelet, keressünk két ilyen megfelelő \(f\) és \(g\) függvényt. Készítsünk két egyszerű függvényt, melyek egy-egy <code class="highlighter-rouge">int</code> típusú paramétert kérnek be, és szintén <code class="highlighter-rouge">int</code> típussal térnek vissza. Hívjuk meg a függvényeket az első 20 pozitív egészre, először \( f(g(x)) \), majd \( g(f(x)) \) sorrendben.</p>
+  </li>
+  <li>
+    <p><strong>(1 pont)</strong> <code class="highlighter-rouge">szorgalmi5_binarisell.c</code></p>
+
+    <p>A régebbi Nexus replikánsok csak binárisan tudnak kommunikálni. Szavak helyett, 0-s és 1-eseket tartalmazó számsorozatokat küldenek ki a világ felé. Az egyik ilyen elromlott android viszont néha más számjegyeket is kiír, ekkor az ilyen üzenetet figyelmen kívül kell hagyni.</p>
+
+    <p>Írjunk függvényt, amely bemenetként egy egész számot kap, kimenete pedig 1, ha a szám csak 0-s és 1-es számjegyeket tartalmaz, különben 0.</p>
+
+    <p><em>Segítség: mindig az 1-es helyiértéken lévő számjegyet ellenőrizzük modulo 10-es maradékkal és folyamatosan osszuk le 10-zel a számot.</em></p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">szorgalmi5_collatz.c</code></p>
+
+    <p>Úgy döntesz, hogy a problémákat sürgősen jelented a Tyrell vállalat vezérigazgatójának személyesen, dr. Eldon Tyrellnek. Azonban ő csak az igazán magas intelligenciájú emberekkel hajlandó szóbaállni. Titkárnőjén keresztül üzeni, hogy csak akkor fogad, ha megmondod neki, melyik 1 és 1000 közötti számra generálódik a leghosszabb Collatz-sorozat.</p>
+
+    <p>A Collatz-sorozat egészen egyszerű szabályokat követ. Vegyünk egy tetszőleges pozitív egész számot, legyen ez \(a_0\). Ha \(a_0 = 1\), akkor álljunk le, különben készítsük el a soron következő számot úgy, hogy</p>
+    <ul>
+      <li>\(a_{n + 1} = 3a_n + 1\), ha \(a_n\) páratlan;</li>
+      <li>\(a_{n + 1} = a_n / 2\), ha \(a_n\) páros.</li>
+    </ul>
+
+    <p>A sorozat akkor áll le, ha \(a_n = 1\). (Az, hogy ez a sorozat minden pozitív egészre megáll, matematikailag nincs bebizonyítva, de az első 1000 számra biztos, hogy igaz.) Például ha \(a_0 = 6\), akkor a sorozat a következőképp néz ki: <code class="highlighter-rouge">6 3 10 5 16 8 4 2 1</code>, és a sorozat hossza 9.</p>
+
+    <ol>
+      <li><strong>(1 pont)</strong> Írjunk meg az \(f(n) = 3n + 1\) függvényt.</li>
+      <li><strong>(1 pont)</strong> Írjunk meg az \(f(n) = n/2\) függvényt.</li>
+      <li><strong>(1 pont)</strong> Írjunk egy függvényt, amely bemenetként egy egész számot kér be, visszatérési értéke pedig a soron következő Collatz-szám. Használjuk az előző két részfeladat függvényeit!</li>
+      <li><strong>(1 pont)</strong> Írjunk egy függvényt, amely bemenetként megkapja az \(a_0\)-t, visszatérési értéke pedig az ebből generált Collatz-sorozat hossza. Használjuk az előző részfeladatban megírt függvényt. (Figyeljünk arra, hogy ha a bemenet 1, akkor egyből le kell állni!) <em>Segítség: <code class="highlighter-rouge">while</code> ciklus addig, amíg nem kapunk 1-et.</em></li>
+      <li><strong>(1 pont)</strong> Írjunk egy programot, amely egy 1000 elemű tömbben eltárolja az első 1000 szám által generált Collatz-sorozat hosszát. Írjuk ki a leghosszabb sorozatot (de csak azt!).</li>
+    </ol>
+  </li>
+</ol>
+
+		
+	</div>
+</article>
+
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer><span>@2017 - Monochrome</span></footer>
+
+
+	    <!-- Script -->
+      <script src="/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>
