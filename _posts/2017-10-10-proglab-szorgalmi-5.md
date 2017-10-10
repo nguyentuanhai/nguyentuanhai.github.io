@@ -9,9 +9,9 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
 
 1.  **(1 pont)** `szorgalmi5_kommutativ.c`
     
-    A Nexus 3 android gyártósoron a hibás egyedeket kivizsgálásra küldik ki. Az egyik ilyen selejtes példány vizsgálata közben jössz rá, hogy a gondok fő oka az elromlott logikai egységekben van. A hiba miatt ugyanis a replikánsok folyton felcserélik a műveletek sorrendjeit.
+    A Nexus 3 android gyártósoron a hibás egyedeket kivizsgálásra küldik. Az egyik ilyen selejtes példány vizsgálata közben jössz rá, hogy a gondok fő oka az elromlott logikai egységekben van. A hiba miatt ugyanis a replikánsok folyton felcserélik a műveletek sorrendjeit.
     
-    Bizonyítsuk be, hogy a függvényhívás nem kommutatív művelet, keressünk két ilyen megfelelő \\(f\\) és \\(g\\) függvényt. Készítsünk két egyszerű függvényt, melyek egy-egy `int` típusú paramétert kérnek be, és szintén `int` típussal térnek vissza. Hívjuk meg a függvényeket az első 20 pozitív egészre, először \\( f(g(x)) \\), majd \\( g(f(x)) \\) sorrendben.
+    Bizonyítsuk be, hogy a függvényhívás nem kommutatív művelet, keressünk két ilyen megfelelő \\(f\\) és \\(g\\) függvényt. Készítsünk két egyszerű függvényt, melyek egy-egy `int` típusú paramétert kérnek be, és szintén `int` típussal térnek vissza. Hívjuk meg a függvényeket az első 20 pozitív egészre, először \\( f(g(x)) \\), majd \\( g(f(x)) \\) sorrendben, a kapott eredményeket írjuk ki a képernyőre.
     
 2. **(1 pont)** `szorgalmi5_binarisell.c`
 
@@ -31,8 +31,8 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
     
     A sorozat akkor áll le, ha \\(a_n = 1\\). (Az, hogy ez a sorozat minden pozitív egészre megáll, matematikailag nincs bebizonyítva, de az első 1000 számra biztos, hogy igaz.) Például ha \\(a_0 = 6\\), akkor a sorozat a következőképp néz ki: `6 3 10 5 16 8 4 2 1`, és a sorozat hossza 9.
 
-    1. **(1 pont)** Írjunk meg az \\(f(n) = 3n + 1\\) függvényt.
-    2. **(1 pont)** Írjunk meg az \\(f(n) = n/2\\) függvényt.
+    1. **(1 pont)** Írjuk meg az \\(f(n) = 3n + 1\\) függvényt.
+    2. **(1 pont)** Írjuk meg az \\(f(n) = n/2\\) függvényt.
     3. **(1 pont)** Írjunk egy függvényt, amely bemenetként egy egész számot kér be, visszatérési értéke pedig a soron következő Collatz-szám. Használjuk az előző két részfeladat függvényeit!
     4. **(1 pont)** Írjunk egy függvényt, amely bemenetként megkapja az \\(a_0\\)-t, visszatérési értéke pedig az ebből generált Collatz-sorozat hossza. Használjuk az előző részfeladatban megírt függvényt. (Figyeljünk arra, hogy ha a bemenet 1, akkor egyből le kell állni!) *Segítség: `while` ciklus addig, amíg nem kapunk 1-et.*
     5. **(1 pont)** Írjunk egy programot, amely egy 1000 elemű tömbben eltárolja az első 1000 szám által generált Collatz-sorozat hosszát. Írjuk ki a leghosszabb sorozatot (de csak azt!).
