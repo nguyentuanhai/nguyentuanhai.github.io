@@ -30,3 +30,13 @@ title: Oktat
         free(array);
     }
     ```
+
+* **Változó inkrementálása**
+
+    Néhány embernél tapasztaltuk a következő hibát mind kis- és nagyZH-ban.
+
+    ```
+    a = a++;
+    ```
+
+    A költő itt valószínűleg meg akarta növelni `a` értékét 1-gyel, azonban ahhoz elég az `a++` vagy az `a = a + 1`. A fenti kód egy ún. `undefined behavior`, azaz nem definiált viselkedés, ami szimplán azt jelenti, hogy akármi lehet, tehát hibás.

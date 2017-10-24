@@ -4,12 +4,22 @@
  <title>nguyentuanhai.github.io</title>
  <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
  <id>https://nguyentuanhai.github.io</id>
- <updated>2017-10-22T22:18:35+02:00</updated>
+ <updated>2017-10-24T12:02:16+02:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
    <email>nthaitrx@gmail.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>Programozás Labor - Szorgalmi 7.</title>
+   <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-7"/>
+   <id>https://nguyentuanhai.github.io/proglab-szorgalmi-7</id>
+   <updated>2017-10-24T00:00:00+02:00</updated>
+   <content type="html">&lt;p&gt;A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi7_csokik.c&lt;/code&gt; Gombóc Artúr imádja a csokoládékat. Különösképpen a kerek, a szögletes, a hosszú, a rövid, a gömbölyű,...</content>
+ </entry>
 
  
 
