@@ -4,12 +4,22 @@
  <title>nguyentuanhai.github.io</title>
  <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
  <id>https://nguyentuanhai.github.io</id>
- <updated>2017-10-24T12:02:16+02:00</updated>
+ <updated>2017-10-26T17:08:48+02:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
    <email>nthaitrx@gmail.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>Számtud 1. ZH tipikus hibák</title>
+   <link href="https://nguyentuanhai.github.io/szamtud-zh-1-hibak"/>
+   <id>https://nguyentuanhai.github.io/szamtud-zh-1-hibak</id>
+   <updated>2017-10-26T00:00:00+02:00</updated>
+   <content type="html">&lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;15 fiú és 15 lány közül kell kiválasztani egy 10 fős csoportot úgy, hogy legalább 2 fiú és legalább 2 lány legyen.&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Egy tipikus rossz megoldás:&lt;/strong&gt; válasszunk ki 2 fiút és 2 lányt, majd a maradék 26 közül még vegyünk 6 embert. Ezt \( \binom{15}{2}\binom{15}{2}\binom{26}{6} \)-féleképpen...</content>
+ </entry>
 
  
 
