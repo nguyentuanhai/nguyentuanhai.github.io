@@ -168,7 +168,9 @@
 
     <p>Az <a href="https://nguyentuanhai.github.io/download/eredmenyek.txt">eredmenyek.txt</a> tartalmazza a 2017-es budapesti maraton eredményeit. Az első sorban egy <code class="highlighter-rouge">n</code> szám található, a befutók száma. Utána <code class="highlighter-rouge">n</code> sor következik, minden sorban egy futó eredménye, amely 5 adatból áll: név, születési év, országkód, nem, eredmény <code class="highlighter-rouge">hh:mm:ss</code> formátumban, tabulátorokkal (<code class="highlighter-rouge">\t</code> karakterekkel) elválsztva.</p>
 
-    <p>Készítsünk struktúrákat a megfelelő adatok eltárolására. Olvassuk be az adatokat a fájlokból és tároljuk el dinamikusan allokált tömbökben. A fájlokat csak egyszer szabad megnyitni és végigolvasni, a <a href="https://nguyentuanhai.github.io/download/szintido.txt">szintido.txt</a> fájlról nem ismerjük a sorok számát!</p>
+    <p>Készítsünk struktúrákat a megfelelő adatok eltárolására. Olvassuk be az adatokat a fájlokból és tároljuk el dinamikusan allokált tömbökben. A fájlokat csak egyszer szabad megnyitni és végigolvasni, a <a href="https://nguyentuanhai.github.io/download/szintido.txt">szintido.txt</a> fájlról nem ismerjük a sorok számát! Az egyes adatelemekről (pl. név) feltételezhetjük, hogy 100 karakternél nem hosszabbak.</p>
+
+    <p><em>Segítség: a tabulátorok szerinti szétszedéshez használhatjuk például az <code class="highlighter-rouge">strtok()</code> függvényt. A szintidők beolvasásakor használhatunk <code class="highlighter-rouge">realloc()</code>-ot.</em></p>
 
     <ol>
       <li><strong>(3 pont)</strong> Hány futónak sikerült kvalifikálnia magát a bostoni maratonra, ebből hány magyar és hány külföldi?</li>

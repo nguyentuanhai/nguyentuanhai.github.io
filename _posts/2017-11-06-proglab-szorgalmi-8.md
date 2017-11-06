@@ -14,7 +14,9 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
     
     Az [eredmenyek.txt][2] tartalmazza a 2017-es budapesti maraton eredményeit. Az első sorban egy `n` szám található, a befutók száma. Utána `n` sor következik, minden sorban egy futó eredménye, amely 5 adatból áll: név, születési év, országkód, nem, eredmény `hh:mm:ss` formátumban, tabulátorokkal (`\t` karakterekkel) elválsztva.
 
-    Készítsünk struktúrákat a megfelelő adatok eltárolására. Olvassuk be az adatokat a fájlokból és tároljuk el dinamikusan allokált tömbökben. A fájlokat csak egyszer szabad megnyitni és végigolvasni, a [szintido.txt][1] fájlról nem ismerjük a sorok számát!
+    Készítsünk struktúrákat a megfelelő adatok eltárolására. Olvassuk be az adatokat a fájlokból és tároljuk el dinamikusan allokált tömbökben. A fájlokat csak egyszer szabad megnyitni és végigolvasni, a [szintido.txt][1] fájlról nem ismerjük a sorok számát! Az egyes adatelemekről (pl. név) feltételezhetjük, hogy 100 karakternél nem hosszabbak.
+
+    *Segítség: a tabulátorok szerinti szétszedéshez használhatjuk például az `strtok()` függvényt. A szintidők beolvasásakor használhatunk `realloc()`-ot.*
 
     1. **(3 pont)** Hány futónak sikerült kvalifikálnia magát a bostoni maratonra, ebből hány magyar és hány külföldi?
 
