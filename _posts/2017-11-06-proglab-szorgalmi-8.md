@@ -36,4 +36,6 @@ A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. 
 
     Megjegyzés: az alábbi szavakat kell megkeresni: ERTEK, FORDITO, KARAKTER, LISTA, MUVELET, NYELV, OPERATOR, PROGRAM, STRUKTURA, SZAM, SZO, TOMB, VALTOZO.
 
+    *Segítség: két dimenziós tömb allokálására egy [hasznos oldal](http://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/). Az oldal sok módszert megmutat, ezek közül akármelyiket lehet használni, de fontos, hogy értsük, mit csinál a kód. Egy másik fontos megjegyzés, hogy a program végén jól kell felszabadítani a lefoglalt memóriát. Annyi `free()`-t hívjunk meg, ahány `malloc()`-ot, és csak olyan pointerekre, amikre `malloc()`oltunk.*
+
     [3]: {{ site.url }}/download/szokereso.txt
