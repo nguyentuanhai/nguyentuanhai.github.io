@@ -4,12 +4,22 @@
  <title>nguyentuanhai.github.io</title>
  <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
  <id>https://nguyentuanhai.github.io</id>
- <updated>2017-10-26T17:08:48+02:00</updated>
+ <updated>2017-11-06T11:04:37+01:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
    <email>nthaitrx@gmail.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>Programozás Labor - Szorgalmi 8.</title>
+   <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-8"/>
+   <id>https://nguyentuanhai.github.io/proglab-szorgalmi-8</id>
+   <updated>2017-11-06T00:00:00+01:00</updated>
+   <content type="html">&lt;p&gt;A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi8_boston.c&lt;/code&gt; A bostoni maraton a világ egyik leghíresebb és legrégebbi versenye. Minden évben többtízezren jelentkeznek, de csak...</content>
+ </entry>
 
  
 

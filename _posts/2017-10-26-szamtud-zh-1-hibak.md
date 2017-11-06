@@ -27,11 +27,11 @@ categories: sza, oktat
 
 4. **BFS után hány keresztél lesz a gráfban.**
 
-    * Itt sokan nem tudták, hogy pontosan mi is az a keresztél. Egy rossz tipp az az, hogy a gyökértől azonos távolságra levő pontokat összekötő nem fabeli él. Ezek nyilván kersztélek lesznek, de még ezeken túl minden nem előre- (és vissza-, ami itt nincs irányítatlan esetben,) él az keresztél.
+    * Itt sokan nem tudták, hogy pontosan mi is az a keresztél. Egy rossz tipp az az, hogy a gyökértől azonos távolságra levő pontokat összekötő nem fabeli él. Ezek nyilván kersztélek lesznek, de még ezeken túl minden nem előre- (vagy vissza-, ami itt nincs irányítatlan esetben,) él az keresztél.
 
 5. **Keressük meg azt az utat a gráfban, amely mentén a legtöbb kincset össze tudjuk szedni.**
 
-    * Tulajdonképpen a leghosszabb utat keressük ebben a körmentes (!) gráfban. Néhányan valamilyen Dijkstra vagy Ford módosítással próbálkoztak. Úgy általánosan elmondható, hogy egy gráfban a leghosszabb utak keresése nem egy egyszerű feladat, és Dijkstra-val nem érdekes próbálkozni, mert a maximum függvény nem tesz eleget a jóság függvények szükséges feltételeinek. Ha egész véletlenül mégis kijött a jó megoldás, arra sem adtunk pontot, mert ez egy elvi hiba. A feladatot PERT-tel kellett megoldani, bár a legrövidebb utak algoritmusokat is lehet használni kivételesen (amik jóval hosszabbak és bonyolultabbak, mint a PERT). Bővebben: https://en.wikipedia.org/wiki/Longest_path_problem
+    * Tulajdonképpen a leghosszabb utat keressük ebben a körmentes (!) gráfban. Néhányan valamilyen Dijkstra vagy Ford módosítással próbálkoztak. Úgy általánosan elmondható, hogy egy gráfban a leghosszabb utak keresése nem egy egyszerű feladat, és Dijkstra-val nem érdemes próbálkozni, mert a maximum függvény nem tesz eleget a jóság függvények szükséges feltételeinek. Ha egész véletlenül mégis kijött a jó megoldás, arra sem adtunk pontot, mert ez egy elvi hiba. A feladatot PERT-tel kellett megoldani, bár a legrövidebb utak algoritmusokat is lehet használni kivételesen (amik jóval hosszabbak és bonyolultabbak, mint a PERT). Bővebben: https://en.wikipedia.org/wiki/Longest_path_problem
 
 6. **Van-e Hamilton-kör a gráfban?**
 
