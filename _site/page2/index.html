@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>Oktat</title>
+	<title>nguyentuanhai.github.io</title>
   <meta name="description" content="A minimal, responsive, ready to use blog template, built with Jekyll.">
 
 	<!-- MathJax -->
@@ -156,55 +156,46 @@
 		  
 		<main>
 
-			<article id="page">
+			<!-- Posts -->
+<ul id="posts">
+
 	
-  <h1 id="a-programozás-alapjai-1">A programozás alapjai 1.</h1>
 
-<h2 id="gyakori-hibák">Gyakori hibák</h2>
+	  <li class="post">
+	  	<h2><a href="/proglab-szorgalmi-2">Programozás Labor - Szorgalmi 2.</a></h2>
+      <time datetime="2017-09-17T00:00:00+02:00" class="by-line"> <i>17 Sep 2017</i> </time>
+	  	<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a moodle rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be. (1 pont) szorgalmi2_rugo.c Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú...</p>
+	  </li>
 
-<ul>
-  <li>
-    <p><strong>Változó méretű tömb</strong></p>
+    
 
-    <p>Az első kisZH-ban gyakori <em>“hiba”</em> volt, hogy beolvasunk egy <code class="highlighter-rouge">n</code> értéket, ezután megpróbálunk deklarálni egy <code class="highlighter-rouge">n</code> méretű tömböt.</p>
-
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  int foo() {
-      int size;
-      scanf("%d", &amp;size);
-      int array[size];
-  }
-</code></pre></div>    </div>
-
-    <p>Ezt az újabb szabványok megengedik, és a kód le is fordul egyes fordítók esetén (<code class="highlighter-rouge">gcc</code> vagy <code class="highlighter-rouge">clang</code>), azonban ez a funkció nincs mindenhol beépítve így az általunk (azaz a Visual Studio által) használt <code class="highlighter-rouge">MSVC</code>-ben sem. Ha a tömb méretét futás közben (futási időben) szeretnénk megadni, akkor használjunk <code class="highlighter-rouge">malloc</code>-ot (amit később tanulunk).</p>
-
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  int foo() {
-      int size;
-      scanf("%d", &amp;size);
-      int * array = (int *) malloc(size * sizeof(int));
-      // ...
-      free(array);
-  }
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p><strong>Változó inkrementálása</strong></p>
-
-    <p>Néhány embernél tapasztaltuk a következő hibát mind kis- és nagyZH-ban.</p>
-
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  a = a++;
-</code></pre></div>    </div>
-
-    <p>A költő itt valószínűleg meg akarta növelni <code class="highlighter-rouge">a</code> értékét 1-gyel, azonban ahhoz elég az <code class="highlighter-rouge">a++</code> vagy az <code class="highlighter-rouge">a = a + 1</code>. A fenti kód egy ún. <code class="highlighter-rouge">undefined behavior</code>, azaz nem definiált viselkedés, ami szimplán azt jelenti, hogy akármi lehet, tehát hibás.</p>
-  </li>
 </ul>
 
-
-</article>
 
 	  </main>
 		
 		  <!-- Pagination links -->
       
+        <div class="pagination">
+          
+            <a href="/" class="page-item">&laquo;</a>
+          
+        
+          
+            
+              <a href="/" class="page-item">1</a>
+            
+          
+            
+              <span class="page-item">2</span>
+            
+          
+        
+          
+            <span class="page-item">&raquo;</span>
+          
+        </div>
+        
 
 	  </div>
 	    

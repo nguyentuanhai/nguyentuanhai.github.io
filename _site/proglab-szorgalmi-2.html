@@ -71,6 +71,8 @@
 	  
 	    
 	  
+	    
+	  
     
     <!-- Nav links -->
 	  <a href="https://gist.github.com/nguyentuanhai">Gist</a>
@@ -133,6 +135,8 @@
 	    
 	      
 	    
+	      
+	    
       
       <!-- Nav links -->
 	    <a href="https://gist.github.com/nguyentuanhai">Gist</a>
@@ -165,14 +169,13 @@
 
     <p>Már megint elszökött az Órarugógerincű Felpattanó! Ezúttal Gombóc Artúr próbál meg utánaugrálni. A hajsza egy számegyenes egész számú koordinátáin történik. Az üldözés kezdetekor Gombóc Artúr a <code class="highlighter-rouge">0</code>-ás koordinátán áll, az Órarugógerincű Felpattanó pedig az <code class="highlighter-rouge">x</code>-en (<code class="highlighter-rouge">x &gt; 0</code> egész). Gombóc Artúr és az Órarugógerincű Felpattanó minden másodpercben ugranak egyet a számegyenesen, előbbi <code class="highlighter-rouge">a</code> méretűt, utóbbi <code class="highlighter-rouge">b</code> méretűt (<code class="highlighter-rouge">a, b &gt; 0</code> egészek). Határozzuk meg, hogy adott <code class="highlighter-rouge">x</code>, <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> számokra, utol fogja-e érni Gombóc Artúr a szökevényt. Ha nem, írjunk ki egy <code class="highlighter-rouge">-1</code>-et, ha igen, írjuk ki, hogy hány másodperc múlva.</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Pl.:
  Input: 4 2 1
  Output: 4
 
  Input: 4 1 2
  Output: -1
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>Az első esetben az Órarugógerincű Felpattanó a 4-esen kezd és csak 1-et ugrik, Artúr 2-t, így 4 lépés múlva éri őt utol.</p>
   </li>
@@ -181,14 +184,13 @@
 
     <p>Gombóc Artúr vendégeket vár. A vacsora csak desszertből fog állni és mindenki táblacsokikockákat fog kapni. Ehhez Artúr leltárba veszi a csokikészletét és megszámolja, hány kocka maradt az egyes csokitáblákból. Vajon el tudja-e osztani Artúr a csokoládékockákat az <code class="highlighter-rouge">n</code> vendég (<code class="highlighter-rouge">n &gt; 0</code> egész) közt egyenlően (Artúrnak most nem jut csoki, ő fogyókúrázik). Írjunk programot, ami először bekéri a vendégek számát, majd addig kéri be az egyes táblák kockáinak számát, amíg a bemeneten <code class="highlighter-rouge">0</code>-t nem kapunk. Írjuk ki, hogy el lehet-e osztani a csokit a vendégek közt igazságosan.</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Pl.:
  Input: 5 13 7 28 2 0
  Output: "El lehet osztani a csokikat igazságosan."
 
  Input: 2 2 3 4 5 1 0
  Output: "Nem lehet elosztani a csokikat igazságosan."
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>Az első esetben összesen 50 kocka van, azt el lehet oszani az 5 vendég közt. A második esetben 15 csokikockát nem lehet elosztani 2 vendég közt.</p>
   </li>
@@ -197,11 +199,10 @@
 
     <p>Picur és Pom Pom a következő játékot játsszák: lerajzolnak <code class="highlighter-rouge">n</code> pontot egy papírlapra és felváltva összekötnek két-két pontot. A játékot az veszíti el, aki kört hoz létre. Ki fog nyerni, ha mindketten a lehető legjobban játszanak és Picur kezdi a játékot?</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Pl.:
  Input: 3
  Output: "Pom Pom"
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>Először Picur összeköt két pontot, majd Pom Pom összeköti az összekötetlen pontot az egyik összekötöttel. Így marad két pont, amik nincsenek összekötve egymással, amiket ha Picur összeköt, elveszíti a játékot.</p>
   </li>
@@ -210,7 +211,7 @@
 
     <p>Picur legutóbbi matek órája a számrendszerekről szólt. Sikerült is megtanulnia az első 10 számrendszert. Gyakorlásképpen azt játssza, hogy megkéri Pom Pomot, hogy mondjon neki egy <code class="highlighter-rouge">n</code>-es számrendszert (<code class="highlighter-rouge">0&lt;n&lt;11</code>) és egy <code class="highlighter-rouge">k</code> számot (<code class="highlighter-rouge">0&lt;k&lt;1000</code>). Ekkor ő elkezdi felírni az <code class="highlighter-rouge">n</code>-es számrendszer számjegyeti a <code class="highlighter-rouge">0</code>-tól kezdve növekvő sorrendbe, és ha elérte az <code class="highlighter-rouge">n-1</code>-et, akkor onnantól csökkenő sorrendben folytatja a felírást, amíg el nem éri megint a <code class="highlighter-rouge">0</code>-t, ahonnan ismét növelni kezdi a számjegyeket. A sorozatot addig írja, amíg nem lesz <code class="highlighter-rouge">k</code> hosszú. Segítsünk Picurnak felírni a sorozatot adott <code class="highlighter-rouge">n</code>-re és <code class="highlighter-rouge">k</code>-ra.</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> Pl.:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Pl.:
  Input: 6 18
  Output: 012345432101234543
 
@@ -219,8 +220,7 @@
 
  Input: 1 10
  Output: 0000000000
-</code></pre>
-    </div>
+</code></pre></div>    </div>
   </li>
 </ol>
 

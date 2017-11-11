@@ -4,12 +4,22 @@
  <title>nguyentuanhai.github.io</title>
  <link href="https://nguyentuanhai.github.io/atom.xml" rel="self"/>
  <id>https://nguyentuanhai.github.io</id>
- <updated>2017-11-06T11:58:29+01:00</updated>
+ <updated>2017-11-11T18:04:08+01:00</updated>
  <author>
    <name>Nguyen Tuan Hai</name>
    <uri></uri>
    <email>nthaitrx@gmail.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>Programozás Labor - Szorgalmi 9.</title>
+   <link href="https://nguyentuanhai.github.io/proglab-szorgalmi-9"/>
+   <id>https://nguyentuanhai.github.io/proglab-szorgalmi-9</id>
+   <updated>2017-11-11T00:00:00+01:00</updated>
+   <content type="html">&lt;p&gt;A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a &lt;a href=&quot;https://moodle.hit.bme.hu/&quot;&gt;moodle&lt;/a&gt; rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;szorgalmi9_pakli.c&lt;/code&gt; Gombóc Artúr eljátszotta minden csokolédáját pókeren. Ezért úgy döntött, hogy otthon elkezd gyakorolni, hogy legközelebb visszanyerhesse...</content>
+ </entry>
 
  
 
