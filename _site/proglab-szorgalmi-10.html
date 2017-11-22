@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>Programozás Labor - Szorgalmi 6.</title>
-  <meta name="description" content="A programozás alapjai 1. hatodik laborjának szorgalmi feladatai">
+	<title>Programozás Labor - Szorgalmi 10.</title>
+  <meta name="description" content="A programozás alapjai 1. sokadik laborjának szorgalmi feladatai">
 
 	<!-- MathJax -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>	
@@ -157,39 +157,60 @@
 		<main>
 
 			<article id="post-page">
-	<h2>Programozás Labor - Szorgalmi 6.</h2>		
-	<time datetime="2017-10-22T00:00:00+02:00" class="by-line">22 Oct 2017</time>
+	<h2>Programozás Labor - Szorgalmi 10.</h2>		
+	<time datetime="2017-11-22T00:00:00+01:00" class="by-line">22 Nov 2017</time>
 	<div class="content">
 
 		<p>A szorgalmi feladat elfogadásáért legalább 3 pontnyi feladatot kell beadni. A feladatok beadása a <a href="https://moodle.hit.bme.hu/">moodle</a> rendszeren keresztül zajlik. A megoldáshoz a .c fájlokat egy .zip csomagba tömörítve adjátok be.</p>
 
 <ol>
   <li>
-    <p><code class="highlighter-rouge">szorgalmi6_futoverseny.c</code>
- Miután Vágási Ferinek mégsem jött be az internet, úgy dönt, hogy futóversenyek szervezésébe fog bele. Egy maratont szeretne szervezni, melyen a futók többféle versenyszámban is elindulhatnának.</p>
+    <p><code class="highlighter-rouge">szorgalmi10_folyam.c</code>
+ A gonosz varázsló kifosztotta a világ összes csokigyárát és a csokoládékat egy hatalmas tartályban beolvasztotta a kastélyában a Varázshegy tetején. Ezt látván hősünk Pico, a csokiimádó kutya, egy rabszolgamunkás gyerekekből álló hadsereg élén megostromolta a gonosz varázsló várát. A harc során azonban sajnos felrobbant a csokitartály és a forró folyékony csoki a hegyi ösvények mentén lefolyt és elárasztotta a hegy lábában lévő gabonamezőket. Milyen sebességgel történik az áradás, ha ismerjük a hegyi ösvények hálózatát és az útszakaszok szélességét.</p>
+
+    <p>A bemenetünk, az úthálózat, egy súlyozott, irányított gráf, melyet a <a href="https://nguyentuanhai.github.io/download/folyam_graf.txt">folyam_graf.txt</a> fájl ír le. A fájl első sorában két szám áll: <code class="highlighter-rouge">n</code>, a csúcsok száma; <code class="highlighter-rouge">e</code>, az élek száma. A gráf csúcsait számok jelölik, <code class="highlighter-rouge">0</code>-tól <code class="highlighter-rouge">n-1</code>-ig. A fájlban ezután <code class="highlighter-rouge">e</code> sor következik, mindegyik sorban három szám: <code class="highlighter-rouge">u</code>, <code class="highlighter-rouge">v</code>, <code class="highlighter-rouge">w</code>. Ez egy irányított él u-ból v-be, és annak a w súlya. Írjunk programot, amely kiszámítja a maximális folyam nagyságát a <code class="highlighter-rouge">0</code> csúcsból az <code class="highlighter-rouge">n-1</code> csúcsba. Egészítsük ki a <a href="https://nguyentuanhai.github.io/download/flow_keret.c">flow_keret.c</a> keretprogramot megfelelően.</p>
 
     <ol>
       <li>
-        <p><strong>(1 pont)</strong> Hozzunk létre egy C struktúrát, amely eltárolja egy futó következő adatait: egy karakter, amely azt jelöli, hogy a futó melyik rajtzónából indul el; egy egész szám, a futó sorszáma; egy egész szám, a futó által lefutandó táv; egy egész szám, a futó által eddig lefutott táv hossza kilométerekre kerekítve (a verseny elején 0); egy valós szám, hogy hánykor indult el a futó (ha még nem indult el, akkor 0); egy valós szám, hogy hánykor ért célba a futó (ha még nem érkezett meg, akkor 0).</p>
-
-        <div class="highlighter-rouge"><pre class="highlight"><code>     Pl.:
-     Futo futo = {'C', 1352, 42, 0, 0, 0};
-</code></pre>
-        </div>
+        <p><strong>(3 pont)</strong> Írjuk meg a BFS algoritmust, ami egy adott gyökérpontból elkészíti a BFS fát.</p>
       </li>
       <li>
-        <p><strong>(1 pont)</strong> Hozzunk létre a csapatversenyek csapatainak is egy-egy struktúrát. A páros csapatverseny struktúrája két futót tárol, míg a négyesváltó struktúra négy futót tárol. Hozzunk létre egy-egy függvényt, mely kiszámítja egy csapat összidejét és átlagsebességét.</p>
-      </li>
-      <li>
-        <p><strong>(1 pont)</strong> Írjunk függvényt, ami bekér egy futót paraméterként és kiírja, hogy épp hol tart a futó és hogy a táv hanyad részét tette meg tovább nem egyszerűsíthető törtszámként. <em>Segítség: használjunk <code class="highlighter-rouge">lnko()</code> függvényt!</em></p>
+        <p><strong>(3 pont)</strong> Írjuk meg a javító utas algoritmust, ami megtalálja a maximális folyamnagyságot.</p>
       </li>
     </ol>
 
     <div class="highlighter-rouge"><pre class="highlight"><code>     Pl.:
-     7 km: a tav 1/6 reszenel tartasz.
-     28 km: a tav 2/3 reszenel tartasz.
+     Input:
+     7 11
+     0 1 8
+     0 4 6
+     1 2 4
+     1 3 5
+     2 6 4
+     3 5 2
+     3 6 12
+     4 2 6
+     4 3 2
+     4 5 3
+     5 6 2
+     Output: 13
 </code></pre>
     </div>
+
+    <p>A bemenet az alábbi gráfot írja le: <img src="https://nguyentuanhai.github.io/img/folyam_megoldas.png" alt="a" height="302px" width="415px" />. A folyam pedig 13, ami maximális, hiszen a 2-6, 1-3, 4-3, 5-6 élek 13 méretű vágást alkotnak.</p>
+
+    <p>Megj.: a fenti gráf szomszédossági mátrixa</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>     0 8 0 0 6 0 0
+     0 0 4 5 0 0 0
+     0 0 0 0 0 0 4
+     0 0 0 0 0 2 12
+     0 0 6 2 0 3 0
+     0 0 0 0 0 0 2
+     0 0 0 0 0 0 0
+</code></pre>
+    </div>
+
   </li>
 </ol>
 
