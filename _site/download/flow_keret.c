@@ -3,15 +3,15 @@
 
 typedef struct qnode_t {
     /* 
-        TODO: kétirányban láncolt lista struktúra,
-        amely tartalmaz egy gráfpontot (egy számot).
+        TODO: ketiranyban lancolt lista struktura,
+        amely tartalmaz egy grafpontot (egy szamot).
     */
 } qnode_t;
 
 qnode_t * create_elem(int vertex) {
     qnode_t * new_elem = NULL;
     /* 
-        TODO: új elem létrehozása.
+        TODO: uj elem letrehozasa.
     */
     return new_elem;
 }
@@ -19,38 +19,38 @@ qnode_t * create_elem(int vertex) {
 void push_back(qnode_t ** head, qnode_t ** tail, int vertex) {
     qnode_t * new_elem = create_elem(vertex);
     /* 
-        TODO: új csúcs hozzáadása a lista végéhez.
+        TODO: uj csucs hozzaadasa a lista vegehez.
     */
 }
 
 qnode_t * pop_front(qnode_t ** head, qnode_t ** tail) {
     qnode_t * res = NULL;
     /* 
-        TODO: csúcs kivétele a lista elejéről.
+        TODO: csucs kivetele a lista elejerol.
     */
     return res;
 }
 
 void print_queue(qnode_t * head) {
     /* 
-        TODO: láncolt lista elemei kiíratása.
+        TODO: lancolt lista elemei kiiratasa.
     */
 }
 
 void print_queue_reversed(qnode_t * tail) {
     /* 
-        TODO: láncolt lista elemei visszafele.
+        TODO: lancolt lista elemei visszafele.
     */
 }
 
 void free_queue(qnode_t * head) {
     /* 
-        TODO: láncolt lista felszabadítása.
+        TODO: lancolt lista felszabaditasa.
     */
 }
 
 void test_queue() {
-    // tesztelő függvény
+    // tesztelo fuggveny
     qnode_t * head = NULL, * tail = NULL;
 
     push_back(&head, &tail, 3);
@@ -83,75 +83,75 @@ void test_queue() {
 
 void print_matrix(int ** mat, int cols, int rows) {
     /* 
-        TODO: 2D mátrix kiírása képernyőre.
+        TODO: 2D matrix kiirasa kepernyore.
     */
 }
 
 void print_array(int * arr, int size) {
     /* 
-        TODO: tömb kiírása képernyőre.
+        TODO: tomb kiirasa kepernyore.
     */
 }
 
 int * bfs(int ** adj, int root, int n) {
-    // prev[i]: melyik csúcsból megy a BFS fa az i. csúcsba.
+    // prev[i]: melyik csucsbol megy a BFS fa az i. csucsba.
     int * prev = malloc(n * sizeof(int));
 
-    // visited[i]: 1, ha az i. csúcsot a BFS már meglátogatta.
+    // visited[i]: 1, ha az i. csucsot a BFS mar meglatogatta.
     int * visited = calloc(n, sizeof(int));
         
-    // a BFS-hez FIFO lista eleje és vége. Ez a lista tartalmazza
-    // azon csúcsokat, amiket megjelöltünk látogatásra.
+    // a BFS-hez FIFO lista eleje es vege. Ez a lista tartalmazza
+    // azon csucsokat, amiket megjeloltunk latogatasra.
     qnode_t * head = NULL, * tail = NULL;
 
     /* 
-        TODO: prev tömb feltöltése -1 értékkel.
+        TODO: prev tomb feltoltese -1 ertekkel.
     */
 
     /* 
-        TODO: állítsuk be a gyökérpontot meglátogatottnak.
+        TODO: allitsuk be a gyokerpontot meglatogatottnak.
     */
     
     /* 
-        TODO: adjuk hozzá azokat a csúcsokat a FIFO-hoz,
-        amiket majd meg kell látogatnunk.
+        TODO: adjuk hozza azokat a csucsokat a FIFO-hoz,
+        amiket majd meg kell latogatnunk.
     */
 
-    // a ciklus addig megy, amíg van meglátogatandó csúcs, azaz
-    // ki nem ürül a FIFO listánk.
+    // a ciklus addig megy, amig van meglatogatando csucs, azaz
+    // ki nem urul a FIFO listank.
     while (head) {
         /*
-            TODO: vegyük elő a következő meglátogatandó csúcsot,
-            és látogassuk meg (írjuk át a visited tömböt).
+            TODO: vegyuk elo a kovetkezo meglatogatando csucsot,
+            es latogassuk meg (irjuk at a visited tombot).
         */
         /*
-            TODO: rakjuk be a meglátogatott csúcs szomszédjait a FIFO
-            listánkba, de csak akkor, ha még nem látogattuk meg őket,
-            továbbá jelöljük be a prev tömbben, hogy honnan látogatjuk
-            meg őket. Az, hogy kik szomszédok, azt az adj mátrix
+            TODO: rakjuk be a meglatogatott csucs szomszedjait a FIFO
+            listankba, de csak akkor, ha meg nem latogattuk meg oket,
+            tovabba jeloljuk be a prev tombben, hogy honnan latogatjuk
+            meg oket. Az, hogy kik szomszedok, azt az adj matrix
             tartalmazza.
         */
         /*
-            TODO: szabadítsunk fel minden memóriát, amit már nem fogunk
-            használni.
+            TODO: szabaditsunk fel minden memoriat, amit mar nem fogunk
+            hasznalni.
         */
     }
     /*
-        TODO: felszabadító hadműveletek végrehajtása.
+        TODO: felszabadito hadműveletek vegrehajtasa.
     */
 
-    // a fa éleit tartalmazó tömböt adjuk vissza.
+    // a fa eleit tartalmazo tombot adjuk vissza.
     // ha prev[root] nem -1, akkor valami el lett rontva.
     return prev;
 }
 
 void flow() {
-    int n; // csúcsok száma
-    int e; // élek száma
-    int ** jav; // javító gráf szomszédossági mátrixa.
+    int n; // csucsok szama
+    int e; // elek szama
+    int ** jav; // javito graf szomszedossagi matrixa.
     FILE * infile = NULL;
     /* 
-        TODO: Fájl megnyitása.
+        TODO: Fajl megnyitasa.
     */
         
     if (infile == NULL) {
@@ -160,58 +160,58 @@ void flow() {
     }
 
     /*
-        TODO: olvassuk be az élek és a csúcsok számát.
+        TODO: olvassuk be az elek es a csucsok szamat.
     */
 
     /*
-        TODO: foglaljunk le memóriát az n*n-es mátrixnak,
-        és nullázzuk le az elemeit.
+        TODO: foglaljunk le memoriat az n*n-es matrixnak,
+        es nullazzuk le az elemeit.
     */
 
     /*
-        TODO: olvassuk be az éleket a szomszédossági mátrixba.
-        Ne felejtsük el bezárni a fájlt, hiszen már nem kell.
+        TODO: olvassuk be az eleket a szomszedossagi matrixba.
+        Ne felejtsuk el bezarni a fajlt, hiszen mar nem kell.
     */
         
-    // keressünk utat 0-ból (n-1)-be (s-ből t-be) BFS-sel.
+    // keressunk utat 0-bol (n-1)-be (s-bol t-be) BFS-sel.
     int * bfs_prev = bfs(jav, 0, n);
 
-    // amíg van út az (n-1)-es csúcsba
+    // amig van ut az (n-1)-es csucsba
     while (bfs_prev[n - 1] != -1) {
-        // most a bfs_prev tömbből kellene kihámozni egy utat 0-ból
-        // (n-1)-be, majd az úton annyit javítani a jav. gráfon,
+        // most a bfs_prev tombbol kellene kihamozni egy utat 0-bol
+        // (n-1)-be, majd az uton annyit javitani a jav. grafon,
         // amennyit csak tudunk.
 
-        int to; // innen indul az él, amit vizsgálunk
-        int from; // ide megy az él, amit vizsgálunk
+        int to; // innen indul az el, amit vizsgalunk
+        int from; // ide megy az el, amit vizsgalunk
         /*
-            TODO: állítsuk be a to és from értékeket. Javaslat: az út
-            utolsó élének a két végpontját állítsuk be, tehát ami az
+            TODO: allitsuk be a to es from ertekeket. Javaslat: az ut
+            utolso elenek a ket vegpontjat allitsuk be, tehat ami az
             (n-1)-be mutat.
         */
-        int min = jav[from][to]; // ez tárolja az élsúlyt, amivel javítunk.
+        int min = jav[from][to]; // ez tarolja az elsulyt, amivel javitunk.
 
         /*
-            TODO: menjünk végig a 0-ból (n-1)-be vezető úton, és keressük meg
-            azt az értéket, amivel javítani tudunk az út mentén (az út él-
-            súlyainak a minimuma). Javaslat: hátulról járjuk be az utat, tehát
-            (n-1)-ben kezdjünk és 0-ban végezzünk.
+            TODO: menjunk vegig a 0-bol (n-1)-be vezeto uton, es keressuk meg
+            azt az erteket, amivel javitani tudunk az ut menten (az ut el-
+            sulyainak a minimuma). Javaslat: hatulrol jarjuk be az utat, tehat
+            (n-1)-ben kezdjunk es 0-ban vegezzunk.
         */
         
         /*
-            TODO: ismételjük meg a végigmenetelt, de ezúttal végezzük el a ja-
-            vításokat a jav gráfban. Megjegyzés: ha jav[i][j]-n csökkentünk,
-            akkor a jav[j][i]-n ugyanannyit növelnünk is kell majd.
+            TODO: ismeteljuk meg a vegigmenetelt, de ezuttal vegezzuk el a ja-
+            vitasokat a jav grafban. Megjegyzes: ha jav[i][j]-n csokkentunk,
+            akkor a jav[j][i]-n ugyanannyit novelnunk is kell majd.
         */
         free(bfs_prev);
         bfs_prev = bfs(jav, 0, n);
     }
 
-    // algoritmus vége, kérdés: hol fog látszódni a folyam nagysága?
+    // algoritmus vege, kerdes: hol fog latszodni a folyam nagysaga?
 
     /*
-        TODO: írassunk ki dolgokat és szabadítsunk fel mindent, amit még nem
-        szabadítottunk fel.
+        TODO: irassunk ki dolgokat es szabaditsunk fel mindent, amit meg nem
+        szabaditottunk fel.
     */
 }
 
