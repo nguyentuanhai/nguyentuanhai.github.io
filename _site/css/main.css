@@ -743,3 +743,6 @@ h4 {
   text-align: left;
   margin-top: 30px;
   margin-bottom: 10px; }
+
+code {
+  font-family: "Consolas"; }
