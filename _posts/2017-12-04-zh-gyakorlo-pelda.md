@@ -7,7 +7,7 @@ categories: prog1lab, oktat
 
 1. Egy hatalmas, több, mint 100 villamosmérnök hallgatóból álló csoport várakozik a BME I épületében, ahol A számítástudomány alapjaiból fognak szóbeli vizsgát tenni. A vizsga menete a következőképpen zajlik. A vizsga felügyelője addig hív be hallgatókat, amíg nem lesznek 20-an a teremben. Amint egy hallgató belépett a terembe, azonnal húz egy tételt és elkezdi azt kidolgozni. Amint a hallgató befejezte a tételkidolgozást, jelentkezik, és egy vizsgáztatóval elvonulva elkezdi a szóbelit. Mivel ekkor felszabadul egy hely a teremben, a felügyelő egyből be is hívja a következő vizsgázót.
 
-Írjunk progamot, amely időrendben kiírja a vizsgázók azonosító neptun kódját és a vizsgájuknak a kezdeti idejét. A hallgatók adatait a [hallgatok_kicsi.dat][1] (vagy a [hallgatok_nagy.dat][2]) bináris fájlfól olvassuk be. A fájlban a hallgatók adatai vannak egymás után: először egy 6 karakterből álló Neptun-kód, majd egy `double` érték, mely megmondja, mennyi idő kell egy hallgatónak a tételének kidolgozásához.
+    Írjunk progamot, amely időrendben kiírja a vizsgázók azonosító neptun kódját és a vizsgájuknak a kezdeti idejét. A hallgatók adatait a [hallgatok_kicsi.dat][1] (vagy a [hallgatok_nagy.dat][2]) bináris fájlfól olvassuk be. A fájlban a hallgatók adatai vannak egymás után: először egy 6 karakterből álló Neptun-kód, majd egy `double` érték, mely megmondja, mennyi idő kell egy hallgatónak a tételének kidolgozásához.
 
     1. Írjuk meg a hallgatókat tároló láncolt lista struktúráját, ami tartalmazza a hallgató neptun-kódját, gondolkodási idejét, valamint azt, hogy mikor fog sorra kerülni.
 
