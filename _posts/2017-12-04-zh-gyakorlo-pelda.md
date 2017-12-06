@@ -17,5 +17,8 @@ categories: prog1lab, oktat
 
     4. Dolgozzuk fel a bináris fájlt, ügyeljünk a 20 fős létszámkorlátra.
 
+    [Megoldás][3]
+
 [1]: {{ site.url }}/download/hallgatok_kicsi.dat
 [2]: {{ site.url }}/download/hallgatok_nagy.dat
+[3]: https://gist.github.com/nguyentuanhai/49260163d8f594b197f18344b4b4ca3a
